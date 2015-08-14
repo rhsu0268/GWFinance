@@ -1,0 +1,78 @@
+/* sell_form.css
+This is the style sheet for sell.php */
+
+#title
+{
+    font-size: 40px;
+    text-align: center;
+}
+#buy {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue";
+    /*overflow: hidden;*/
+    width: 240px;
+    margin: 0 auto;
+}
+
+fieldset 
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+input
+{
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue";
+    margin: 0;
+}
+
+.account-info
+{
+    padding: 20px 20px 0 20px;
+}
+
+.account-info label
+{
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.account-info .menu
+{
+    background: #FFFFFF;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+}
+
+.account-action
+{
+    background: #f0f0f2;
+    border-top: 1px solid #c6c7cc;
+    padding: 20px;
+}
+
+.account-action .btn
+{
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 8px 16px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+    
